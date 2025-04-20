@@ -1,0 +1,41 @@
+.tabs-button, .filter-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.tabs-button.active, .filter-button.active {
+    background-color: lightgreen;
+}
+
+.filters input[type="date"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.chart-container {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.filter-item {
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.filter-item.active {
+    background-color: #f5f5f5; /* Light grey for active filter */
+    color: black;
+}
+
+.chart-container {
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+}
